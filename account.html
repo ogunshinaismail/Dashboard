@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="account.css">
+    <title>Account</title>
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="side-brand">
+            <div class="side">
+                <a href=""><img src="img/9digitals-logo.png" alt=""><span>
+                <h2>Digitals</h2></span></a>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href=""><span class="las la-igloo"></span><span>Dashboard</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-users"></span><span>Teachers</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Students</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-shopping-bag"></span><span>Parents</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-receipt"></span><span>Library</span></a>
+                </li>
+
+                <li id="toggle1">
+                    <span class="las la-clipboard-list"></span><span class="oru">Account</span>  <span class="las la-angle-down" id="arrow1"></span>
+                </li>
+                <li id="nested1">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html"> <i class="las la-angle-right"></i>  Income</a>
+                </li>
+                <li id="nested2">
+                    <a href=""><i class="las la-angle-right"></i>   Expenditure</a>
+                </li>
+                <li id="nested11">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html"><i class="las la-angle-right"></i>   Fees Collection</a>
+                </li>
+                <li id="nested21">
+                    <a href=""><i class="las la-angle-right"></i>  eWallet</a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Class</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Subject</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Meeting</span></a>
+                </li>
+
+                <li id="toggle2">
+                    <span class="las la-clipboard-list"></span><span class="oru">Dropdown </span><span class="las la-angle-down" id="arrow2"></span>
+                </li>
+                <li id="nested3">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html">Account</a>
+                </li>
+                <li id="nested4">
+                    <a href="">Income</a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Attendance</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+
+                Dashboard
+            </h2>
+
+            <div class="search-wrapper">
+                <input type="search" placeholder="Search here">
+                <span class="las la-search"></span>
+            </div>
+
+            <div class="notification">
+                <div class="notification-icon">
+                    <div class="shift">
+                        <i class="las la-globe"></i> <span class="english">English <button><span class="las la-angle-down"></span></button></span>
+                    </div>
+                    <i class="las la-envelope"></i>
+                    <i class="las la-bell"></i>
+                </div>
+                <div class="user-wrapper">
+                    <img src="img/1.jpg" width="40px" height="40px" alt="">
+                    <div>
+                        <h4>John Doe</h4>
+                        <small>Admin</small>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="subHeader">
+                <p>Dashboard<span> > </span>Incomes</p>
+                <p class="jumbo"><b>Hello!</b> Welcome Back</p>
+            </div>
+
+            <div class="table-div">
+                <div class="table">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Income</h3>
+                            <div class="header-whole">
+                                <div class="header-one">
+                                    <input type="text" placeholder="Search by Resource">
+                                    <input type="text" placeholder="Search by Date">
+                                    <input type="text" placeholder="Search by Amount">
+                                    <button>Search</button>
+                                </div>
+
+                                <div class="header-two">
+                                    <button><span class="las la-angle-down"></span></button>
+                                    <button><span class="las la-circle"></span></button>
+                                    <button><span class="las la-times"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>S/n</td>
+                                        <td>Name</td>
+                                        <td>Class / Term</td>
+                                        <td>Section</td>
+                                        <td>Transaction ID</td>
+                                        <td>Resources</td>
+                                        <td>Amount ($)</td>
+                                        <td>Date</td>
+                                        <td>Time</td>
+                                        <td>Status</td>
+                                        <td>Action</td>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status red"> Fail</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>John Doe</td>
+                                        <td>SS3/Second</td>
+                                        <td>2021/2022</td>
+                                        <td>24634-8766857796</td>
+                                        <td>School Fees</td>
+                                        <td>10000</td>
+                                        <td>18/6/2021</td>
+                                        <td>10:45am</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>
+                                            <button><span class="las la-eye eye-button"></span></button>
+                                            <button><span class="las la-sync sync-button"></span></button>
+                                            <button><span class="las la-trash delete-button"></span></button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>Copyrigth 9digitals 2021. All right reserved. Designed by 9digitals</p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script>
+        let toggle1 = document.querySelector("#toggle1");
+        let toggle2 = document.querySelector("#toggle2");
+        let nested1 = document.querySelector("#nested1");
+        let nested2 = document.querySelector("#nested2");
+        let nested3 = document.querySelector("#nested3");
+        let nested4 = document.querySelector("#nested4");
+        let arrow1 = document.querySelector("#arrow1");
+        let arrow2 = document.querySelector("#arrow2");
+        
+            toggle1.addEventListener('click', ()=>{
+                if(nested1.style.display == "block" || nested2.style.display == "block" || nested11.style.display == "block" || nested21.style.display == "block"){
+                    nested1.style.display = "none";
+                    nested2.style.display = "none";
+                    nested11.style.display = "none";
+                    nested21.style.display = "none";
+                    nested21.style.marginBottom = "3rem ";
+                    arrow1.style.transform = "rotate(0deg)";
+                    arrow1.style.color = '#fff';
+                    arrow1.style.textShadow = '#none';
+                }
+                else {
+                    nested1.style.display = "block";
+                    nested2.style.display = "block";
+                    nested11.style.display = "block";
+                    nested21.style.display = "block";
+                    arrow1.style.transform = "rotate(180deg)";
+                    arrow1.style.color = '#ffff07';
+                    arrow1.style.textShadow = '0 0 5px #fff';
+                }
+            })
+    
+            toggle2.addEventListener('click', ()=>{
+                if(nested3.style.display == "block" || nested4.style.display == "block"){
+                    nested3.style.display = "none";
+                    nested4.style.display = "none";
+                    arrow2.style.transform = "rotate(0deg)";
+                    arrow2.style.color = '#fff';
+                    arrow2.style.textShadow = '#none';
+                }
+                else {
+                    nested3.style.display = "block";
+                    nested4.style.display = "block";
+                    arrow2.style.transform = "rotate(180deg)";
+                    arrow2.style.color = '#ffff07';
+                    arrow2.style.textShadow = '0 0 5px #fff';
+                }
+    
+            })
+    </script>
+</body>
+</html>

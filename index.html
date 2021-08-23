@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="side-brand">
+            <div class="side">
+                <a href=""><img src="img/9digitals-logo.png" alt=""><span>
+                <h2>Digitals</h2></span></a>
+            </div>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li class="active">
+                    <a href=""><span class="las la-igloo"></span><span>Dashboard</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-users"></span><span>Teachers</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Students</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-shopping-bag"></span><span>Parents</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-receipt"></span><span>Library</span></a>
+                </li>
+
+                <li id="toggle1">
+                    <span class="las la-clipboard-list"></span><span class="oru">Account</span>  <span class="las la-angle-down" id="arrow1"></span>
+                </li>
+                <li id="nested1">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html"> <i class="las la-angle-right"></i>  Income</a>
+                </li>
+                <li id="nested2">
+                    <a href=""><i class="las la-angle-right"></i>   Expenditure</a>
+                </li>
+                <li id="nested11">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html"><i class="las la-angle-right"></i>   Fees Collection</a>
+                </li>
+                <li id="nested21">
+                    <a href=""><i class="las la-angle-right"></i>  eWallet</a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Class</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Subject</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Meeting</span></a>
+                </li>
+
+                <li id="toggle2">
+                    <span class="las la-clipboard-list"></span><span class="oru">Dropdown </span><span class="las la-angle-down" id="arrow2"></span>
+                </li>
+                <li id="nested3">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html">Account</a>
+                </li>
+                <li id="nested4">
+                    <a href="">Income</a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Attendance</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+
+                Dashboard
+            </h2>
+
+            <div class="search-wrapper">
+                <input type="search" placeholder="Search here">
+                <span class="las la-search"></span>
+            </div>
+
+            <div class="notification">
+                <div class="notification-icon">
+                    <div class="shift">
+                        <i class="las la-globe"></i> <span class="english">English <button><span class="las la-angle-down"></span></button></span>
+                    </div>
+                    <i class="las la-envelope"></i>
+                    <i class="las la-bell"></i>
+                </div>
+                <div class="user-wrapper">
+                    <img src="img/1.jpg" width="40px" height="40px" alt="">
+                    <div>
+                        <h4>John Doe</h4>
+                        <small>Admin</small>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="subHeader">
+                <p>Dashboard<span> > </span>Admin</p>
+                <p class="wallet"><span class="lab la-bitcoin"></span> Wallet Bal: $987,000.00 <span><i class="las la-cogs"></i></span></p>
+            </div>
+
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Students</span>
+                    </div>
+                    <div>
+                        <span class="las la-users"></span>
+                    </div>
+                </div>
+    
+                <div class="card-single">
+                    <div>
+                        <h1>79</h1>
+                        <span>Teachers</span>
+                    </div>
+                    <div>
+                        <span class="las la-clipboard"></span>
+                    </div>
+                </div>
+    
+                <div class="card-single">
+                    <div>
+                        <h1>124</h1>
+                        <span>Parents</span>
+                    </div>
+                    <div>
+                        <span class="las la-shopping-bag"></span>
+                    </div>
+                </div>
+    
+                <div class="card-single">
+                    <div>
+                        <h1>$6k</h1>
+                        <span>Total Earning</span>
+                    </div>
+                    <div>
+                        <span class="lab la-google-wallet"></span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="recent-grid">
+                <!-- GRID 1 -->
+                <div class="customers"> 
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Fees collection and expense</h3>
+
+                            <div>
+                                <button><span class="las la-angle-down"></span></button>
+                                <button><span class="las la-circle"></span></button>
+                                <button><span class="las la-times"></span></button>
+                            </div>
+                        </div>
+
+                        <div class="container" style=" width: 400px; padding: 0; margin-top: 1.5rem; padding-bottom: 1.5rem;">
+                            <canvas id="myChart"></canvas>
+                        </div>
+                    
+
+                    </div>
+                </div>
+
+                <!-- GRID 2 -->
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>All Expense</h3>
+                            <div>
+                                <button><span class="las la-angle-down"></span></button>
+                                <button><span class="las la-circle"></span></button>
+                                <button><span class="las la-times"></span></button>
+                            </div>
+                        </div>
+                        
+                        <div class="card-body">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>ID No</td>
+                                        <td>Expense Type</td>
+                                        <td>Amount</td>
+                                        <td>Status</td>
+                                        <td>Email</td>
+                                        <td>Date</td>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <td>#00001</td>
+                                        <td>Children Day</td>
+                                        <td>$2000</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>25/5/2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#00002</td>
+                                        <td>School Test</td>
+                                        <td>$3000</td>
+                                        <td>
+                                            <span class="status red">Due</span>
+                                        </td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>16/5/2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#00003</td>
+                                        <td>Exam Fee</td>
+                                        <td>$10000</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>14/6/2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#00004</td>
+                                        <td>Library Fee</td>
+                                        <td>$8000</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>10/6/2021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>#00005</td>
+                                        <td>School Fee</td>
+                                        <td>$200000</td>
+                                        <td>
+                                            <span class="status green"> Paid</span>
+                                        </td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>09/6/2021</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- GRID 3 -->
+                <div class="calendar-section">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Event Calender</h3>
+
+                            <div>
+                                <button><span class="las la-angle-down"></span></button>
+                                <button><span class="las la-circle"></span></button>
+                                <button><span class="las la-times"></span></button>
+                            </div>
+                        </div>
+
+                        <div class="calendar-sec">
+                            <div class="calendar">
+                                <div class="calendar-header">
+                                    <span class="month-picker" id="month-picker">February</span>
+                                    <div class="year-picker">
+                                        <span class="year-change" id="prev-year">
+                                            <pre><</pre>
+                                        </span>
+                                        <span id="year">2021</span>
+                                        <span class="year-change" id="next-year">
+                                            <pre>></pre>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="calendar-body">
+                                    <div class="calendar-week-day">
+                                        <div>Sun</div>
+                                        <div>Mon</div>
+                                        <div>Tue</div>
+                                        <div>Wed</div>
+                                        <div>Thu</div>
+                                        <div>Fri</div>
+                                        <div>Sat</div>
+                                    </div>
+                                        <div class="calendar-days"></div>
+                                </div>
+                                    
+                                    <div class="month-list"></div>
+                            </div>
+                        </div>
+                    
+
+                    </div>
+                </div>
+
+                <!-- GRID 4 -->
+                <div class="card card-four">
+                    <div class="card-header">
+                        <h3>Notice Board</h3>
+                        <div>
+                            <button><span class="las la-angle-down"></span></button>
+                            <button><span class="las la-circle"></span></button>
+                            <button><span class="las la-times"></span></button>
+                        </div>
+                    </div>
+
+                    <div class="notice-board">
+                        <div class="noticeBoard">
+                            <time>21 May, 2021</time>
+                            <p class="smallGreen">Head Teacher <span class="smallSpan">10 min ago</span></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi beatae.</p>
+                        </div>
+                        <div class="noticeBoard">
+                            <time>21 May, 2021</time>
+                            <p class="smallBlue">Bola Chioma <span class="smallSpan">10 min ago</span></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi beatae.</p>
+                        </div>
+                        <div class="noticeBoard">
+                            <time>21 May, 2021</time>
+                            <p class="smallPink">Olaoni Yusuf <span class="smallSpan">10 min ago</span></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi beatae.</p>
+                        </div>
+                    </div>
+                </div>
+
+              <br>    
+                
+                <!-- SOCIAL -->
+                <div class="social">
+                    <div class="social-card">
+                        <i class="lab la-facebook-square"></i>
+                        <div>
+                            <p>400,000</p>
+                            <p class="social-small">Likes on facebook</p>
+                        </div>
+                    </div>
+                    <div class="social-card">
+                        <i class="lab la-twitter-square"></i>
+                        <div>
+                            <p>1, 000, 000</p>
+                            <p class="social-small">Followers on twitter</p>
+                        </div>
+                    </div>
+                    <div class="social-card">
+                        <i class="lab la-linkedin"></i>
+                        <div>
+                            <p>300,000</p>
+                            <p class="social-small">Connections on linkedIn</p>
+                        </div>
+                    </div>
+                    <div class="social-card">
+                        <i class="lab la-instagram"></i>
+                        <div>
+                            <p>2, 000, 000</p>
+                            <p class="social-small">Followers on Instagram</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>Copyrigth 9digitals 2021. All right reserved. Designed by 9digitals</p>
+            </footer>
+    
+        </main>
+
+    </div>
+
+<script>
+    let toggle1 = document.querySelector("#toggle1");
+    let toggle2 = document.querySelector("#toggle2");
+    let nested1 = document.querySelector("#nested1");
+    let nested2 = document.querySelector("#nested2");
+    let nested3 = document.querySelector("#nested3");
+    let nested4 = document.querySelector("#nested4");
+    let arrow1 = document.querySelector("#arrow1");
+    let arrow2 = document.querySelector("#arrow2");
+    
+        toggle1.addEventListener('click', ()=>{
+            if(nested1.style.display == "block" || nested2.style.display == "block" || nested11.style.display == "block" || nested21.style.display == "block"){
+                nested1.style.display = "none";
+                nested2.style.display = "none";
+                nested11.style.display = "none";
+                nested21.style.display = "none";
+                nested21.style.marginBottom = "3rem ";
+                arrow1.style.transform = "rotate(0deg)";
+                arrow1.style.color = '#fff';
+                arrow1.style.textShadow = '#none';
+            }
+            else {
+                nested1.style.display = "block";
+                nested2.style.display = "block";
+                nested11.style.display = "block";
+                nested21.style.display = "block";
+                arrow1.style.transform = "rotate(180deg)";
+                arrow1.style.color = '#ffff07';
+                arrow1.style.textShadow = '0 0 5px #fff';
+            }
+        })
+
+        toggle2.addEventListener('click', ()=>{
+            if(nested3.style.display == "block" || nested4.style.display == "block"){
+                nested3.style.display = "none";
+                nested4.style.display = "none";
+                arrow2.style.transform = "rotate(0deg)";
+                arrow2.style.color = '#fff';
+                arrow2.style.textShadow = '#none';
+            }
+            else {
+                nested3.style.display = "block";
+                nested4.style.display = "block";
+                arrow2.style.transform = "rotate(180deg)";
+                arrow2.style.color = '#ffff07';
+                arrow2.style.textShadow = '0 0 5px #fff';
+            }
+
+        })
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+<script src="script.js"></script>
+</body>
+</html>

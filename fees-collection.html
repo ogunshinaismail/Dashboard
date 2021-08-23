@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="fee.css">
+    <title>Fee Collection</title>
+</head>
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="side-brand">
+            <div class="side">
+                <a href=""><img src="img/9digitals-logo.png" alt=""><span>
+                <h2>Digitals</h2></span></a>
+            </div>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li class="active">
+                    <a href=""><span class="las la-igloo"></span><span>Dashboard</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-users"></span><span>Teachers</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Students</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-shopping-bag"></span><span>Parents</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-receipt"></span><span>Library</span></a>
+                </li>
+
+                <li id="toggle1">
+                    <span class="las la-clipboard-list"></span><span class="oru">Account</span>  <span class="las la-angle-down" id="arrow1"></span>
+                </li>
+                <li id="nested1">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html"> <i class="las la-angle-right"></i>  Income</a>
+                </li>
+                <li id="nested2">
+                    <a href=""><i class="las la-angle-right"></i>   Expenditure</a>
+                </li>
+                <li id="nested11">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html"><i class="las la-angle-right"></i>   Fees Collection</a>
+                </li>
+                <li id="nested21">
+                    <a href=""><i class="las la-angle-right"></i>  eWallet</a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Class</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Subject</span></a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Meeting</span></a>
+                </li>
+
+                <li id="toggle2">
+                    <span class="las la-clipboard-list"></span><span class="oru">Dropdown </span><span class="las la-angle-down" id="arrow2"></span>
+                </li>
+                <li id="nested3">
+                    <a href="C:\Users\shopinverse\Documents\Project\SMS\account.html">Account</a>
+                </li>
+                <li id="nested4">
+                    <a href="">Income</a>
+                </li>
+
+                <li>
+                    <a href=""><span class="las la-clipboard-list"></span><span>Attendance</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+
+                Dashboard
+            </h2>
+
+            <div class="search-wrapper">
+                <input type="search" placeholder="Search here">
+                <span class="las la-search"></span>
+            </div>
+
+            <div class="notification">
+                <div class="notification-icon">
+                    <div class="shift">
+                        <i class="las la-globe"></i> <span class="english">English <button><span class="las la-angle-down"></span></button></span>
+                    </div>
+                    <i class="las la-envelope"></i>
+                    <i class="las la-bell"></i>
+                </div>
+                <div class="user-wrapper">
+                    <img src="img/1.jpg" width="40px" height="40px" alt="">
+                    <div>
+                        <h4>John Doe</h4>
+                        <small>Admin</small>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <main>
+
+            <div class="subHeader">
+                <p>Dashboard<span> > </span>Admin <span> > </span> Fees Collection</p>
+                <p class="wallet"><span class="lab la-bitcoin"></span> Wallet Bal: $987,000.00 <span><i class="las la-cogs"></i></span></p>
+            </div>
+
+            <div class="jumbotron">
+                <p class="jumbo"><b>Hello!</b> Welcome Back</p>
+            </div>
+
+            <div class="container">
+                <div class="card-header">
+                    <h3>Fee Collectible</h3>
+                    <div>
+                        <button><span class="las la-angle-down"></span></button>
+                        <button><span class="las la-circle"></span></button>
+                        <button><span class="las la-times"></span></button>
+                    </div>
+                </div>
+
+                <div class="fee-category">
+                    <button type="button" class="collapsible">Fee Category <i class="las la-angle-down"></i></button>
+                        <div class="content">
+                            <div class="content-one">
+                                <div>
+                                    <p><span class="las la-plus-circle"></span> Add/Update Category <small>e.g School fees full, School fee first payment, Hostel, Exam Fee, etc.</small></p>
+                                    <br>
+                                    <p>Payment Category</p>
+                                    <input type="text" class="input" placeholder="School fees full, School fee first payment, e.t.c">
+                                    <br> <br>
+                                    <p>Payment Description</p>
+                                    <input class="height" type="text" placeholder="Payment Description Here">
+                                    <br> <br>
+                                    <div>
+                                        <p>Category items are:</p>
+                                        <input type="radio" value="compulsory">
+                                        <label for="compulsory">Compulsory for fee payment</label>
+                                        <br>
+                                        <input type="radio" value="optional">
+                                        <label for="optional">Optional for fee payment</label>
+                                    </div>
+                                    <br>
+                                    <button class="reset">Reset</button>
+                                    <button class="add">Add Category</button>
+                                </div>
+                            </div>
+
+                            <div class="content-two">
+                                <div class="content-two-header">
+                                        <p><i class="las la-bars"></i> Categories</p>
+                                        <p class="count">6</p>
+                                </div>
+
+                                <div class="added-category">
+                                    <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                    <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                    <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                    <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                    <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button type="button" class="collapsible">Fee Items <i class="las la-angle-down"></i></button>
+                        <div class="content">
+                            <div class="content-one">
+                                <div>
+                                    <p><span class="las la-plus-circle"></span> Add/Update Category <small>e.g Uniform, Tuition, Library etc.</small></p>
+                                    <br>
+
+                                    <p>Fee Category</p>
+                                    <select name="fee-category" id="fee-category">
+                                        <option value="select Fee Category">Select Fee Category</option>
+                                        <option value="tuition">Tuition</option>
+                                        <option value="uniform">Uniform</option>
+                                        <option value="library">Library</option>
+                                    </select>
+
+                                    <br> 
+
+                                    <p>Name</p>
+                                    <input type="text" class="input" placeholder="e.g Tuition, Library, Uniform, e.t.c">
+
+                                    <br>
+
+                                    <p>Quantity</p>
+                                    <input type="text" class="input" placeholder="No. of items, leave blank if none">
+
+                                    <br>
+
+                                    <p>Amount</p>
+                                    <input type="text" class="input" placeholder="$0.00">
+
+                                    <br>
+
+                                    <div class="grid-me">
+                                        <div class="desc">
+                                                <p>Payment Description</p>
+                                                <input class="height" type="text" placeholder="Payment Description Here">
+                                        </div>
+                                        <br>
+                                        <div class="radio">
+                                            <p>Category items are:</p>
+                                            <input type="radio" value="compulsory">
+                                            <label for="compulsory">Compulsory for fee payment</label>
+                                            <br>
+                                            <input type="radio" value="optional">
+                                            <label for="optional">Optional for fee payment</label>
+                                        </div>
+                                    </div>
+
+                                    <br>
+
+                                    <button class="reset">Reset</button>
+                                    <button class="add">Add Category</button>
+
+                                </div>
+                            </div>
+                            <div class="content-two">
+                                <div class="content-two-header">
+                                    <p><i class="las la-bars"></i> Categories</p>
+                                    <p class="count">6</p>
+                            </div>
+
+                            <div class="added-categories">
+                                <p>Tuition - School Fee Full(200,000) <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                                <p>School Fee Full <i class="las la-edit"></i> <i class="las la-times-circle"></i></p>
+                            </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="collapsible">Fee Conditions <i class="las la-angle-down"></i></button>
+                        <div class="content">
+                            <div class="content-one">
+                                <p>Hello</p>
+                            </div>
+                            <div class="content-two">
+                                <p>Hello</p>
+                            </div>
+                        </div>
+
+                        <button type="button" class="collapsible">Fee Installmentals <i class="las la-angle-down"></i></button>
+                        <div class="content">
+                            <div class="content-one">
+                                <p>Hello</p>
+                            </div>
+                            <div class="content-two">
+                                <p>Hello</p>
+                            </div>
+                        </div>
+
+                </div>
+
+                <!-- <div class="fee-category">
+                    <button type="button" class="collapsible">Open Collapsible</button>
+                        <div class="content">
+                            <div class="content-one">
+                                <p>Hello</p>
+                            </div>
+                            <div class="content-two">
+                                <p>Hello</p>
+                            </div>
+                        </div>
+                </div> -->
+            </div>
+            
+        </main>
+
+    </div>
+
+<script>
+    let toggle1 = document.querySelector("#toggle1");
+    let toggle2 = document.querySelector("#toggle2");
+    let nested1 = document.querySelector("#nested1");
+    let nested2 = document.querySelector("#nested2");
+    let nested3 = document.querySelector("#nested3");
+    let nested4 = document.querySelector("#nested4");
+    let arrow1 = document.querySelector("#arrow1");
+    let arrow2 = document.querySelector("#arrow2");
+    
+        toggle1.addEventListener('click', ()=>{
+            if(nested1.style.display == "block" || nested2.style.display == "block" || nested11.style.display == "block" || nested21.style.display == "block"){
+                nested1.style.display = "none";
+                nested2.style.display = "none";
+                nested11.style.display = "none";
+                nested21.style.display = "none";
+                nested21.style.marginBottom = "3rem ";
+                arrow1.style.transform = "rotate(0deg)";
+                arrow1.style.color = '#fff';
+                arrow1.style.textShadow = '#none';
+            }
+            else {
+                nested1.style.display = "block";
+                nested2.style.display = "block";
+                nested11.style.display = "block";
+                nested21.style.display = "block";
+                arrow1.style.transform = "rotate(180deg)";
+                arrow1.style.color = '#ffff07';
+                arrow1.style.textShadow = '0 0 5px #fff';
+            }
+        })
+
+        toggle2.addEventListener('click', ()=>{
+            if(nested3.style.display == "block" || nested4.style.display == "block"){
+                nested3.style.display = "none";
+                nested4.style.display = "none";
+                arrow2.style.transform = "rotate(0deg)";
+                arrow2.style.color = '#fff';
+                arrow2.style.textShadow = '#none';
+            }
+            else {
+                nested3.style.display = "block";
+                nested4.style.display = "block";
+                arrow2.style.transform = "rotate(180deg)";
+                arrow2.style.color = '#ffff07';
+                arrow2.style.textShadow = '0 0 5px #fff';
+            }
+
+        })
+</script>
+<script>
+let coll = document.getElementsByClassName("collapsible");
+let i;
+    // for (i = 0; i < coll.length; i++) {
+    // coll[i].addEventListener("click", function() {
+    //     this.classList.toggle("active");
+    //     let content = this.nextElementSibling;
+    //     if (content.style.display === "flex") {
+    //     content.style.display = "none";
+    //     } else {
+    //     content.style.display = "flex";
+    //     }
+    // });
+    // }
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let content = this.nextElementSibling;
+    if (content.style.display === "grid") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "grid";
+    }
+  });
+}
+</script>
+</body>
+</html>    

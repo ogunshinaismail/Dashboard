@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    background: url("./img/bg.jpg") fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+.login-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000c2;
+    z-index: 2;
+    cursor: pointer;
+}
+.login {
+    display: grid;
+    grid-template-columns: 2fr auto;
+    grid-column-gap: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 880px;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.login-one {
+    align-items: center;
+    margin-top: 8rem;
+}
+.login-one i {
+    padding-left: 3.7rem;
+    color: #ffff00;
+    font-size: 15rem;
+}
+.login-one h3 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: .1rem;
+}
+.login-two {
+    background: #091724c2;
+    padding: 2rem 3rem;
+    padding-bottom: 4rem !important;
+}
+.login-two h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.login-two select {
+    background-color: #373b3d57;
+    color: #fff;
+    width: 320px;
+    height: 55px;
+    padding: .7rem;
+    border: 2px solid #3f3f9177;
+}
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+.login-section .info-wrapper {
+    background-color: #373b3d57;
+    margin-top: 1rem;
+    padding-left: .2rem;
+    height: 55px;
+    width: 313px;
+    border: 2px solid #3f3f9177;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+.login-section .info-wrapper span {
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.7rem;
+    color: #ffff00;
+}
+.info-wrapper input {
+    height: 100%;
+    background-color: #373b3d00;
+    width: 290px;
+    padding: 0rem .5rem;
+    border: none;
+    outline: none;
+}
+.info-wrapper input::placeholder {
+    color: #fff;
+}
+.login-two button {
+    height: 55px;
+    background-color: #03254B;
+    width: 320px;
+    padding: .5rem;
+    border: none;
+    border: 2px solid #3f3f9167;
+    outline: none;
+    font-size: 1.3rem;
+    color:#fff;
+    margin-bottom: 1.5rem;
+}
+.login-two button i {
+    font-size: 1.1rem;
+}
+.login-section a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    position: absolute;
+    right: 3rem;
+    bottom: 2rem;
+    text-align: right;
+}
+.login-section a:hover {
+    color: #fbff00;
+}
+.side-brand {
+    height: 50px;
+    /* padding: .4rem 0rem 0rem 1rem; */
+    position: absolute;
+    left: 1rem; 
+    bottom: 1.5rem;
+}
+.side a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.side h2 {
+    letter-spacing: 5px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.side-brand .side img {
+    display: inline-block;
+    align-items: center;
+    padding-right: .1rem;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* FORGET PASSWORD */
+.login-onee {
+    align-items: center;
+    margin-top: 3.2rem;
+}
+.login-onee i {
+    padding-left: 3.7rem;
+    color: #ffff00;
+    font-size: 15rem;
+}
+.login-onee h3 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: .1rem;
+}
+.login-twoo {
+    background: #091724c2;
+    padding: 3rem 3rem;
+    padding-bottom: 3rem !important;
+    margin-top: 2rem;
+}
+.login-twoo h2 {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+.login-sec .info-wrapper {
+    background-color: #373b3d57;
+    margin-top: 1rem;
+    padding-left: .2rem;
+    height: 55px;
+    width: 313px;
+    border: 2px solid #3f3f9177;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+.login-sec .info-wrapper span {
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.7rem;
+    color: #ffff00;
+}
+.login-twoo button {
+    height: 55px;
+    background-color: #03254B;
+    width: 320px;
+    padding: .5rem;
+    border: none;
+    border: 2px solid #3f3f9167;
+    outline: none;
+    font-size: 1.3rem;
+    color:#fff;
+    margin-bottom: .3rem;
+}
+.login-twoo button i {
+    font-size: 1.1rem;
+}
+.login-sec p {
+    color: #fff;
+    font-size: 8px;
+}
